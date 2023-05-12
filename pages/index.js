@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import { AuthProvider, useAuth } from "react-oidc-context";
 
 const oidcConfig = {
-    authority: "https://zk-oidc.vercel.app/oidc",
+    authority: "https://0xf9a3cce444b65927a9dd225d6731b341.zkoidc.xyz/oidc",
     client_id: "0xf9a3cce444b65927a9dd225d6731b341",
     redirect_uri: process.env.NEXT_PUBLIC_PRODUCTION_URL ? process.env.NEXT_PUBLIC_PRODUCTION_URL : "http://localhost:3000",
     scope: 'openid email profile'
